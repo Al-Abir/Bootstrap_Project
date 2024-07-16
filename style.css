@@ -1,0 +1,46 @@
+.new_navbar{
+    background-color: #181822 !important ;
+}
+.new_navbar .container{
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.new_navbar .navbar-brand{
+    color: white;
+}
+
+.new_navbar .navbar-nav li a{
+    color:white;
+    padding-left: 100px !important;
+    
+}
+
+
+.new_navbar .dropdown-menu{
+    background-color: #181822;
+}
+
+.btn_sign{
+    background-color: #00A3FF;
+    border: 0;
+    padding: 7px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn_login{
+    background:#00a3ff38;
+    border: 0;
+    padding: 7px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    color:#fff;
+    transition: 0.3s;
+}
+.btn_login:hover{
+    background:#fff;
+    color:#00A3FF;
+    transition: 0.3s;
+}
