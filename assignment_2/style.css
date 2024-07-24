@@ -36,7 +36,8 @@ body{
     height: 751px;
     width: 80%;
     margin: 0 auto;
-    border: 2px solid wheat;
+    overflow: hidden;
+ 
     
     .nav{
 
@@ -58,7 +59,7 @@ body{
              justify-content: space-between;
              align-items: center;
              padding: 5px;
-             border: 0.25px solid bisque;
+             border: 0.25px solid gray;
              border-radius: 50px;
          li{
             
@@ -90,10 +91,11 @@ body{
         margin-top: 40px;
         color:white;
         display: flex;
-    
+
         .left-div{
             width: 50%;
-
+            margin-top: 40px;
+          
             h1{
                 font-size:5rem;
 
@@ -102,15 +104,91 @@ body{
                 }
             }
             p{
-                
+                margin-top: 30px;
+                font-family: "Inter", sans-serif;
+            }.btn-handle{
+                  
+                margin-top: 60px;
+                .btn-hero1{
+                    width: 40%;
+                 
+                    
+                    padding: 15px 70px;
+                    border-radius: 20px;
+                    background-color: red;
+                    text-align: center;
+                    font-weight: 400;
+                }.btn-hero-2{
+                    width: 40%;
+                    margin-top: 40px;
+                    padding: 15px 70px;
+                    border-radius: 20px;
+                  
+                    text-align: center;
+                    
+                }
             }
+            
 
         }.right-div{
             width: 349px;
             height: 580px;
-            margin: 0 auto;
+            margin: 0 auto; 
+           
+         
+        .img-div{
+            .grid-image{
+               position:absolute;
+            }
+            
+        }
+        .sub500{
+
+            width: 180px;
+            height: 100px;
+            position: relative;
+            left:250px;
+            top: 120px;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: gray;
+            h1{
+                font-size:2rem;
+                font-weight: 600px;
+            }
+        }
+        .sub300{
+            width: 180px;
+            height: 100px;
+            display: flex;
+            align-items: center; 
+            position: relative;
+            top:340px;
+            left:-60px;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: gray;
+            .circle{
+              .dot{
+                height: 25px;
+                width: 25px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                background-color:red;
+              }
+ 
+            }
+            .sub-300-text{
+               
+            }
+        }
+        
+
         }
 
     }   
 
 }
+
+
