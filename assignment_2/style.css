@@ -29,6 +29,7 @@ body {
     letter-spacing: 0.5px;
     text-align: left;
 }
+
 /* -----------Nav section start---------------*/
 .nav-section {
     width: 1060px;
@@ -792,7 +793,7 @@ td {
 }
 
 .btn-p {
-    
+
     width: 224px;
     height: 54px;
     text-align: center;
@@ -806,3 +807,210 @@ td {
 
 
 /* ---------Meet our Team Section Start ------------*/
+
+.meet-our-team {
+    width: 1060px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+.meet-text {
+    width: 671px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-bottom: 58px;
+
+
+    .meet {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        text-align: center;
+    }
+}
+
+.meet-trainer-pic {
+
+    width: 1060px;
+    height: 709px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.meet-trainer-1st-row {
+    display: flex;
+    gap: 10px;
+
+
+
+    .meet-1st-pic {
+        width: 326.67px;
+        height: 272px;
+        background-image: url(images/trainer1.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        background: rgba(0, 0, 0, 0.2), url(image);
+    }
+
+    .meet-2nd-pic {
+        width: 326.67px;
+        height: 272px;
+        background-image: url(images/trainer2.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        background: rgba(0, 0, 0, 0.2), url(image);
+
+    }
+
+    .meet-3rd-pic {
+        width: 326.67px;
+        height: 272px;
+        background-image: url(images/trainer3.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        background: rgba(0, 0, 0, 0.2), url(image);
+
+    }
+}
+
+.meet-trainer-2nd-row {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+
+    .meet-1st-pic {
+        width: 326.67px;
+        height: 272px;
+        background-image: url(images/trainer4.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        background: rgba(0, 0, 0, 0.2), url(image);
+
+    }
+
+    .meet-2nd-pic {
+        width: 326.67px;
+        height: 272px;
+        background-image: url(images/trainer5.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        background: rgba(0, 0, 0, 0.2), url(image);
+
+    }
+
+    .meet-3rd-pic {
+        width: 326.67px;
+        height: 272px;
+        background-image: url(images/trainer6.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 18px;
+        background: rgba(0, 0, 0, 0.2), url(image);
+
+    }
+}
+
+/* -------footer section start---------- */
+
+.footer-part {
+
+    width: 100%;
+    height: 489px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-part-container {
+
+    width: 1060px;
+    height: 450px;
+    margin: 0 auto;
+
+}
+
+.footer-part-1st-section {
+   
+    width: 1060px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-part-text {
+    margin-top: 50px;
+    width: 35%;
+}
+
+
+.footer-part-text .fit {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-get .get {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-get ul a {
+    margin-top: 20px;
+    display: block;
+}
+
+.footer-get-2 .get-2 {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-get-2 ul a {
+    margin-top: 20px;
+    display: block;
+}
+hr{
+
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copy{
+    width: 318px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 60px;
+  
+}
+
+/* End of the Project */
