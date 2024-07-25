@@ -14,7 +14,8 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: black;
-    
+    scroll-behavior: smooth;
+
 }
 
 .hero-lorem {
@@ -434,9 +435,9 @@ body {
 
     width: 443px;
     height: 290px;
-  
 
-    .run-text{
+
+    .run-text {
         color: rgb(255, 255, 255);
         font-family: Inter;
         font-size: 38px;
@@ -444,7 +445,7 @@ body {
         line-height: 100%;
     }
 
-    .run-p{
+    .run-p {
         margin-top: 10px;
     }
 }
@@ -476,3 +477,115 @@ body {
         background: url(4);
     }
 }
+
+/* ---------Training and Excersice ---------*/
+
+.training {
+    width: 1060px;
+    height: 581px;
+    margin: 0 auto;
+    margin-top: 80px;
+ 
+
+
+}
+
+.training-text {
+    width: 671px;
+    height: 48px;
+
+    .training-bold {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+}
+
+.training-img{
+    margin-top: 130px;
+    width: 1060px;
+    height: 403px;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.training-img-1st-row{
+    height: 50%;
+    width: 100%;
+    display: flex;
+   
+}
+
+.first-row-pic1{
+    background-image: url(images/exercise1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    
+  
+    
+}
+.pic-1-text{
+ /* image 8 */
+    color: rgb(0, 0, 0);
+      font-family: Inter;
+      font-size: 14px;
+     font-weight: 500;
+     line-height: 17px;
+    letter-spacing: 0px;
+    text-align:bottom;
+ 
+} 
+
+.first-row-pic2{
+    background-image: url(images/exercise2.png);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    
+}
+.first-row-pic3{
+    background-image: url(images/exercise3.png);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    
+}
+
+.training-img-2nd-row{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    
+}
+
+.Second-row-pic1{
+
+    background-image: url(images/exercise4.png);
+    background-position: center;
+    background-size: cover;
+    width: 45%;
+}
+.Second-row-pic2{
+
+    background-image: url(images/exercise5.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+}
+.Second-row-pic3{
+
+    background-image: url(images/exercise6.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+/* -----------------BMI Calculator------------------- */
+
