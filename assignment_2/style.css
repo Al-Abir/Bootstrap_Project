@@ -29,8 +29,7 @@ body {
     letter-spacing: 0.5px;
     text-align: left;
 }
-
-
+/* -----------Nav section start---------------*/
 .nav-section {
     width: 1060px;
     height: 46px;
@@ -102,7 +101,7 @@ body {
 
 }
 
-/* -----------hero Section---------- */
+/* -----------hero Section start---------- */
 
 .hero-section {
 
@@ -418,7 +417,7 @@ body {
 }
 
 
-/* Run and Extra Mile Easily */
+/* ----------Run and Extra Mile Easily---------- */
 
 .mile-easily {
     width: 1060px;
@@ -478,7 +477,7 @@ body {
     }
 }
 
-/* ---------Training and Excersice ---------*/
+/* ---------Training and Exercise ---------*/
 
 .training {
     width: 1060px;
@@ -613,7 +612,7 @@ body {
 }
 
 
-/* -----------------BMI Calculator------------------- */
+/* -----------------BMI Calculator table------------------- */
 
 .bmi-calculator {
     width: 100%;
@@ -685,7 +684,7 @@ td {
     text-align: left;
 }
 
-/* ---------------------- */
+/* -----------BMI calculation 2nd div part----------- */
 .bmi-calculation {
     width: 55%;
     display: flex;
@@ -804,3 +803,6 @@ td {
     color: white;
 
 }
+
+
+/* ---------Meet our Team Section Start ------------*/
