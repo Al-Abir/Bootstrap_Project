@@ -25,6 +25,7 @@
         .hero-section-1st-div {
             width: 100%;
             height: 600px;
+            
              .hero-lorem{
                 width: 80%;
              }
@@ -45,40 +46,22 @@
                     
                 }
               .sub-500 {
-                width: 191px;
-                height: 102px;
-                position: relative;
+                
                 top: 53px;
                 right: -414px;
-                border: 1px solid rgba(255, 255, 255, 0.1);
-                border-radius: 12px;
-                backdrop-filter: blur(20px);
-                background: rgba(255, 255, 255, 0.1);
-                display: flex;
-                flex-direction: column;
-                padding: 20px;
                 }
             
                 .sub-300 {
-                    width: 201px;
-                    height: 96px;
-                    gap: 10px;
-                    position: relative;
-                    display: flex;
-                    align-items: center;
+                   
                     left: 151px;
                     top: 274px;
-                    box-sizing: border-box;
-                    border: 1px solid rgba(255, 255, 255, 0.1);
-                    border-radius: 12px;
-                    backdrop-filter: blur(20px);
-                    background: rgba(48, 48, 48, 0.54);
+                    
                 }
             
                 }
     
     }
-    
+    /*-------change habit section start----*/
   }
 
  
