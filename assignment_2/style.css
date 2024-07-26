@@ -46,6 +46,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .nav-section .nav-text {
@@ -117,8 +118,11 @@ body {
     height: 612px;
     margin: 0 auto;
     margin-top: 32px;
-
     display: flex;
+ 
+    overflow: hidden;
+   
+  
 
 }
 
