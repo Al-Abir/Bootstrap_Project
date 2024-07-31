@@ -182,7 +182,7 @@ nav{
         }
 }
 
-
+/* card section start */
 .card-section{
     background-color: #ECF7FF;
     border-radius: 0 400px 0 0;
@@ -207,3 +207,42 @@ nav{
     border-radius: 25px !important;
 }
 
+  /* about section :start */
+.about-wrapper{
+
+    .right-text{
+        font-size: 4rem;
+      
+        .real{
+            position: relative;
+
+            &::after{
+                position: absolute;
+                content: "";
+                width: 70%;
+                height: 10px;
+                left: 5px;
+                bottom: -1px;
+                z-index: -1;
+                background-color: var(--secondary-color);
+            }
+        }
+       }
+
+}
+
+
+/* Reccent Work section */
+
+.recent_work_wrapper{
+
+
+    background-color: #FFDED4;
+    border-radius: 400px 0px 0px 0px;
+
+    .text{
+        text-align: center;
+    }
+}
+     
+      
