@@ -1,10 +1,86 @@
-*{
-     margin :0;
-     padding: 0;
+/* 
+1. Universe star signe  use kore border padding box-size zoro kora
+2. root ar madome  color gulo declare kora good pratice
+3. body  ar vitor ki hobe kon doron ar font use kora hobe ta declare kora
+4. h1,h2,h3,----h6 , p  a tag ar font size babhobar kore
+5. section padding first time decale kore dawa
 
+====== Responsive design ======  
+1. potek range vitor  h1-h6  a p tag ar font size komano barno
+2.img height width niea komano
+3. button size komano
+4. section ar padding komano
+
+==== Proper responsive korar jonno kisu rules mane colte hobe ======
+1. px use kora jabena soto ba bora kora jaina
+2. % use korte hobe
+3. vw screen size ar shate soto boro kora jai
+4, vh  screen height sot boro korle soto boro hoi
+5. Vmax vievw port maximum
+6.  1 em  mane hosce parent ar size ar soman
+7. 1 rem  mane hosce root ar hisabe . 1 rem = 16 px
+
+*/
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --secondary-color: #f77949;
+    --bg-blue: #374182;
+
+
+    --text-black: #1f1f1f;
+    --text-blue:  #1f294c;
+    --text-gray:  #6d6e5b;
 
 }
 
+
+body{
+     //font-family: 
+     background-image: url();
+     background-size: cover;
+     background-position:center;
+     background-repeat:no repeat;
+     overflow-x: hidden;
+}
+
 h1{
-    color:red;
+    font-size: 4rem;
+    font-weight:700;
+    color: var(--bg-blue);
+    margin-bottom:1rem;
+}
+
+
+
+p{
+    color:var(--text-gray);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+// ============= header section ===========
+
+.navbar .navbar-toggler{
+    border:0;
+    color:var(--bg-gray);
+    line-height:2
+}
+
+.header-wrapper .navbar-nav .nav-item {
+    position:relative;
+    font-size:1.2rem;
+    font-weight:500;
+    margin:0 15px;
+    display:inline-block;
+
 }
